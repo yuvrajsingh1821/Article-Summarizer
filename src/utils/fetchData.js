@@ -4,7 +4,7 @@ export const fetchDataFromApi = async (url) => {
     {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "99b0c2b799mshac66b999b73c18fp1dc052jsn36a780436ae3",
+        "X-RapidAPI-Key": process.env.REACT_APP_SUMMARY_API_KEY,
         "X-RapidAPI-Host": "article-extractor-and-summarizer.p.rapidapi.com",
       },
     }
